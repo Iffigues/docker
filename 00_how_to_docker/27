@@ -1,0 +1,2 @@
+docker service ps  engineering-bay
+docker service logs -f q6kpvd0824dc

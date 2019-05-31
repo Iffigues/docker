@@ -1,0 +1,6 @@
+docker run -dt --rm \
+    --name abathu \
+	    -v $HOME:/root \
+		    -p 3000:3000 \ 
+			-e FLASK_APP=/root/hello.py \
+			  python:2-slim
